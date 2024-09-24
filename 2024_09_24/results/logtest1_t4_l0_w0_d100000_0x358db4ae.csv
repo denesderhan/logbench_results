@@ -1,0 +1,12 @@
+start_time,lib_name,lib_ver,test_duration,cpu_freq,latency_mean,throughput,cpu_cycles,peak_memory,page_faults,buff_flush,sink_flush,buff_size,formatter,formatter_impl,sink,build,dropped,latency_min,latency_max,latency_median,latency_IQR,latency_75th,latency_90th,latency_99th,latency_99.9th
+0x17f7eb5e7f323984,noop,0.0.0,100.025912,2.592028,0.000000,0.000000,43563476,4628480,1205,0,0,0,txt,,lib,release,0
+0x17f7eb9057b8c7c4,abseil,20240722.0,100.051670,2.592028,0.000000,0.000000,118030594,8753152,2426,-1,0,-1,txt,?,sort,release,0
+0x17f7eba944ce1808,boost,1.85.0,100.029992,2.592028,0.000000,0.000000,62674016,6000640,1557,0,0,64,txt,insertion_operator,sort,release,0
+0x17f7ebc230824464,poco,0.0.0,100.028808,2.592028,0.000000,0.000000,52322746,5623808,1456,-1,0,-1,txt,?,sort,release,0
+0x17f7ebf4077bd10c,p7client,5.6,100.027019,2.592028,0.000000,0.000000,110671844,5505024,1500,-1,1000,-1,txt,?,sort,release,0
+0x17f7ec0cf3d32ccc,fstlog,0.50.0,100.023294,2.592028,0.000000,0.000000,47415180,4861952,1264,0,0,0,txt,own_fill_align_charconv,sort,release,0
+0x17f7ec25df3b53d4,fstlog-fast,0.50.0,100.023391,2.592028,0.000000,0.000000,47741802,4849664,1264,0,0,0,txt,minimal_charconv,sort,release,0
+0x17f7ec8998237440,log4cxx,1.2.0,100.038426,2.592028,0.000000,0.000000,84213734,8146944,2118,-1,0,-1,txt,fmtlib_{fmt},sort,release,0
+0x17f7eca285229024,spdlog,1.14.1,100.033712,2.592028,0.000000,0.000000,75540856,10440704,2643,-1,0,164,txt,fmtlib_{fmt},sort,release,0
+0x17f7ecd45d0625b0,quill,7.2.1,100.193107,2.592028,0.000000,0.000000,4753132498,5234688,1428,1,-1,-1,txt,fmtlib_{fmt},sort,release,0
+0x17f7eced529d7010,g3log,0.0.0,100.029113,2.592028,0.000000,0.000000,55314358,5468160,1441,-1,0,-1,txt,printf?,sort,release,?
